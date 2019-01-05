@@ -1,0 +1,112 @@
+body{
+	background-color:#232323 ;
+	margin:0; 
+	font-family: "Times New Roman","Monstserrat","Avenir";
+}
+h2{
+	color:steelblue;
+	/*padding-left: 45%;*/
+	text-align: center;
+	font-family: 'Spicy Rice', cursive;
+	letter-spacing: 5px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.square{
+	width:30%;
+	background:purple;
+	padding-bottom:30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 20%;
+	transition: all 0.6s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width:600px;
+}
+
+h1 {
+	background-color:steelblue;
+	text-align: center;
+	color:white;
+	font-weight: normal;
+	margin:0;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding:10px 0;
+}
+/*#message{
+	color:white;
+}*/
+#stripe{
+	background-color: white;
+	height:30px;
+	text-align: center;
+}
+.selected{
+	color:white;
+	background-color: steelblue;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+#colordisplay{
+	font-size: 200%;
+	
+}
+button{
+	border:none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	color: steelblue;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	outline:none;
+}
+
+button:hover{
+	color:white;
+	background-color: steelblue;
+}
+#utton{
+	color: steelblue;
+	/*text-align:right;*/
+	/*padding-left: 28%;*/
+	background-color: white;
+	position:absolute;
+	right: 0;
+	top: 3;
+	width: 20px;
+	height: 39px;
+	padding-right: 150px;
+	/*padding-top: 2px;*/
+	text-align: center;
+}
+#utton:hover{
+	text-transform: uppercase;
+	color:red;
+	background-color: yellow;
+
+}
+#total_mains{
+	/*padding-left:200px;*/
+	/*text-align: right;*/
+	/*float: right;*/
+}
+.try_again1{
+	float:inherit;
+	text-align: inherit;
+	font-weight: bolder;
+	padding-left: 250px;
+	text-transform: uppercase;
+	color: steelblue;
+}
+#how{
+	background-color: yellow;
+}

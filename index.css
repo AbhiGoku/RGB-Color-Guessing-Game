@@ -1,0 +1,8 @@
+btn{
+	position: absolute;
+	color: white;
+	background-color: black;
+}
+button:hover{
+	background-color: green;
+}
